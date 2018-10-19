@@ -1,0 +1,66 @@
+/********************************
+** General
+********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #555;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    font-weight: 400;
+}
+
+/********************************
+** Top
+********************************/
+
+.top {
+    height: 40vh;
+    background-image: linear-gradient(#ccdfff,#448aff);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.total {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #555;
+}
+.total_title {
+    font-size: 175%;
+    margin-bottom: 20px;
+}
+
+.total_value {
+    margin-bottom: 20px;
+    font-size: 300%;
+    font-weight: 300;
+}
+
+/********************************
+** Bottom
+********************************/
+
+.input_container {
+    display: grid;
+    grid-template-columns: 50%;
+    text-align: center;
+}
+
+.bill_input {
+    grid-column-start: 1;
+}
+
+.split_input {
+    grid-column-start: 2;
+}
